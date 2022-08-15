@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        legend{
+         background-color: gray;
+        color: white;
+         padding: 5px 10px;
+        
+        }
+        label{
+            width:250px;
+            display:inline-block;
+        }
+        body{
+            background-color:whitesmoke;
+        }
+    </style>
+</head>
+<body>
+ 
+     <h1>Registration Form</h1>
+     <i>Please fill in the form below.</i>
+     <hr>
+     <form>
+         
+        <label for="nameentry">Name :</label>
+        <input type="text" id="nameentry" value="John Jonas" maxlength="20">
+        <br>
+        <br>
+        <label for="no.">Contact Number :</label>
+        <input type="tel" id="no." value="1234567890"> 
+         <br>
+         <br>
+         <label for="ema">E-mail :</label>
+         <input type="email" id="ema" placeholder="john@gmail.com" required>
+         <br>
+         <br>
+         
+          <fieldset>
+            <legend>Personal Address </legend>
+         <label for="cou">Country :</label>
+         <input type="text" id="cou">
+         <br>
+         <br>
+         <label for="sta">State :</label>
+         <input type="text" id="sta" placeholder="Orissa"> 
+         <br>
+         <br>
+         <label for="cit">City :</label>
+         <input type="text" id="cit"> 
+         <br>
+         <br>
+         <label for="pos">Postal/Zip Code :</label>
+         <input type="text" id="pos"> 
+        </fieldset>
+         <br>
+         <br>
+         <label for="coll">College Name :</label>
+         <input type="text" id="coll">
+         <br>
+         <br>
+         <label for="dis">Discipline :</label>
+         <input type="text" id="dis">
+         <br>
+         <br>
+         <label for="collid">Participant College ID :</label>
+         <input type="email" id="collid" required>
+         <br>
+         <br>
+         <label for="yr">Year of study :</label>
+
+         <input type="radio" id="yr1" name="studyYear" >
+         <label for="yr1">1</label>
+
+         <input type="radio" id="yr2" name="studyYear" >
+        <label for="yr2">2</label>
+        
+        <input type="radio" id="yr3" name="studyYear" >
+        <label for="yr3">3</label>
+
+        <input type="radio" id="yr4" name="studyYear" >
+         <label for="yr4">4</label>
+          <br>
+         <br>
+         
+         <label for="eve">Participating Events:</label>
+         <br>
+         
+         <input type="checkbox" id="eve1">
+         <label for="eve1">Quizzez</label>
+         <br>
+        
+        <input type="checkbox" id="eve2">
+         <label for="eve2">Dance</label>
+         <br>
+         <input type="checkbox" id="eve3">
+         <label for="eve3">Sports</label>
+         <br>
+         <input type="checkbox" id="eve4">
+         <label for="eve4">Research work</label>
+         <br>
+         <input type="checkbox" id="eve5">
+         <label for="eve5">Event Management</label>
+         <br>
+         <br>
+          
+         <label for="res">Upload Resume :</label>
+         <input type="file" id="res">
+         <br>
+         <br>
+         <label for="pro">Upload College ID Proof :</label>
+         <input type="file" id="pro">
+         <br>
+         <br>
+         <input type="reset">
+         
+         <input  type="button" value="mail me copy of this form" onclick="alert('Copy sent')">
+         <br>
+         <br>
+       
+         <input type="submit">
+
+
+</form>
+</body>
+</html>
